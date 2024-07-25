@@ -1,0 +1,34 @@
+{
+    "name": "Joe'sFarm",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "Sophie's farm": "pkg:Sophie's farm.json",
+        "disco lights": "pkg:disco lights.json"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "Sophie's farm.json",
+        "disco lights.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.28",
+        "tag": "v6.0.28",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/9d308fa3c282191768670a6558e4df8af2d715cf",
+        "target": "6.0.28",
+        "pxt": "9.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
